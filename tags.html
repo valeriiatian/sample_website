@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
   <body>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="moby_dick.html">Moby Dick</a>
+        <a href="tags.html">HTML Tags</a>
+      </div>
 
-    <h1>Important HTML tags</h1>
+    <header>
+        <h1>Important HTML tags</h1>
+    </header>
 
     <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
 
+    <div>
     <p>
       This page is designed as a quick reference for some of the common tags
       covered in <a href="https://learnenough.com/html"><em>Learn
@@ -17,14 +25,20 @@
       learn how to make HTML <em>tables</em> via <code>table</code> and
       related tags.
     </p>
+    </div>
 
+    <div>
     <p>
       The tables below don't include all HTML tags, but they do list many of
       the most important ones.
     </p>
+    </div>
   
+    <header>
       <h2>Block Elements</h2>
-  
+    </header>
+
+    <div>
       <table>
         <tr>
           <th>Tag</th>
@@ -61,6 +75,17 @@
             <td>table data</td>
             <td>include a table data cell</td>
           </tr>
+          <tr>
+            <td><code>ol</code></td>
+            <td>ordered list</td>
+            <td>make a numbered list tag</td>
+          </tr>
+          <tr>
+            <td><code>ul</code></td>
+            <td>unordered list</td>
+            <td>make an unordered list tag</td>
+          </tr>
+
       </table>
 
       <h2>Inline Elements</h2>
@@ -87,7 +112,7 @@
         <td>
           <code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
         </td>
-        <td><strong>at least a billion people</strong>></td>
+        <td><strong>at least a billion people</strong></td>
       </tr>
       <tr>
         <td><code>a</code></td>
@@ -98,7 +123,7 @@
             &lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
           </code>
         </td>
-        <td><a href="https://learnenough.com/">Learn Enough</a>></td>
+        <td><a href="https://learnenough.com/">Learn Enough</a></td>
       </tr>
       <tr>
         <td><code>img</code></td>
@@ -109,9 +134,18 @@
             &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
           </code>
         </td>
-        <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></img>></td>
+        <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></img></td>
       </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>lst item</td>
+        <td>indicate a list item</td>
+        <td><span><code><li>table</li></code></span></td>
+        <td><li>table</li></td>
+      </tr>
+    
     </table>
+    </div>
 
   </body>
 </html>
